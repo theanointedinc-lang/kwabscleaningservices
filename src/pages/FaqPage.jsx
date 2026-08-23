@@ -9,9 +9,9 @@ export default function FaqPage({ onOpenBooking }) {
       
       {/* FAQ Banner */}
       <section style={{
-        background: 'linear-gradient(135deg, #1e0938 0%, #3b0764 50%, #581c87 100%)',
+        background: 'linear-gradient(135deg, rgba(15, 23, 42, 0.55) 0%, rgba(30, 9, 56, 0.45) 50%, rgba(15, 23, 42, 0.7) 100%), url("/hero-bg-about.jpg") center/cover no-repeat',
         color: '#ffffff',
-        padding: '4.5rem 0',
+        padding: '5rem 0',
       }}>
         <div className="container">
           <div className="badge badge-cyan" style={{ marginBottom: '1rem' }}>

@@ -137,6 +137,7 @@ button {
   border-radius: var(--radius-full);
   transition: all var(--transition-normal);
   white-space: nowrap;
+  min-height: 46px; /* Touch friendly compliance */
 }
 
 .btn-cyan {
@@ -163,8 +164,8 @@ button {
 }
 
 .btn-outline-white {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  background: rgba(15, 23, 42, 0.4);
+  border: 1.5px solid rgba(255, 255, 255, 0.4);
   color: var(--white);
   backdrop-filter: blur(8px);
 }
@@ -196,10 +197,10 @@ button {
 }
 
 .glass-card-dark {
-  background: rgba(30, 15, 60, 0.65);
+  background: rgba(15, 23, 42, 0.75);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: var(--radius-md);
   color: var(--white);
 }
@@ -218,9 +219,9 @@ button {
 }
 
 .badge-cyan {
-  background: rgba(6, 182, 212, 0.15);
+  background: rgba(6, 182, 212, 0.18);
   color: var(--cyan-400);
-  border: 1px solid rgba(6, 182, 212, 0.3);
+  border: 1px solid rgba(6, 182, 212, 0.35);
 }
 
 .badge-purple {
@@ -253,8 +254,33 @@ button {
   padding: 5rem 0;
 }
 
-@media (max-width: 768px) {
+/* Enhanced Mobile Responsive Media Queries */
+@media (max-width: 992px) {
+  .container {
+    padding: 0 1.2rem;
+  }
   .section-padding {
     padding: 3.5rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+  .section-padding {
+    padding: 3rem 0;
+  }
+  h1 {
+    font-size: 2.3rem !important;
+    line-height: 1.2 !important;
+  }
+  h2 {
+    font-size: 1.8rem !important;
+  }
+  .btn {
+    width: 100%;
+    padding: 0.8rem 1.2rem;
+    font-size: 0.95rem;
   }
 }

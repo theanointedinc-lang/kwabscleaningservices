@@ -8,7 +8,7 @@ export default function AboutPage({ onOpenBooking }) {
       
       {/* Page Hero */}
       <section style={{
-        background: 'linear-gradient(135deg, rgba(20, 5, 40, 0.88) 0%, rgba(59, 7, 100, 0.85) 50%, rgba(15, 23, 42, 0.94) 100%), url("/hero-bg-about.jpg") center/cover no-repeat',
+        background: 'linear-gradient(135deg, rgba(15, 23, 42, 0.55) 0%, rgba(30, 9, 56, 0.45) 50%, rgba(15, 23, 42, 0.7) 100%), url("/hero-bg-about.jpg") center/cover no-repeat',
         color: '#ffffff',
         padding: '5rem 0',
       }}>
