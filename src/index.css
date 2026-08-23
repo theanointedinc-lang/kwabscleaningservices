@@ -28,9 +28,9 @@
 
   --white: #ffffff;
   
-  /* Fonts */
-  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  /* Fonts - Poppins Brand Font Family */
+  --font-heading: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
   /* Shadows */
   --shadow-sm: 0 2px 4px rgba(59, 7, 100, 0.06);
