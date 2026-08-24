@@ -210,23 +210,18 @@ export default function ServicesSection({ onOpenBooking }) {
                   ))}
                 </div>
 
-                {/* Footer Price & Button */}
+                {/* Footer Action Button */}
                 <div style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justify: 'space-between',
                   paddingTop: '1.2rem',
                   borderTop: '1px solid #f1f5f9',
+                  marginTop: 'auto',
                 }}>
-                  <div style={{ fontWeight: 800, color: '#581c87', fontSize: '1.05rem' }}>
-                    {srv.priceTag}
-                  </div>
                   <button
                     onClick={onOpenBooking}
                     className="btn btn-purple"
-                    style={{ padding: '0.55rem 1.2rem', fontSize: '0.88rem' }}
+                    style={{ width: '100%', padding: '0.75rem 1.2rem', fontSize: '0.95rem', fontWeight: 700 }}
                   >
-                    Book Service <ArrowRight size={15} />
+                    Book Service <ArrowRight size={16} />
                   </button>
                 </div>
               </div>

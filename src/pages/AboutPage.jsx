@@ -4,7 +4,7 @@ import GoogleServiceMap from '../components/GoogleServiceMap';
 
 export default function AboutPage({ onOpenBooking }) {
   return (
-    <div style={{ paddingTop: '7rem', backgroundColor: '#ffffff' }}>
+    <div style={{ paddingTop: '4.5rem', backgroundColor: '#ffffff' }}>
       
       {/* Page Hero */}
       <section style={{

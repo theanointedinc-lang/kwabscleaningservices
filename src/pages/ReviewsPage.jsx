@@ -6,7 +6,7 @@ import { Star, Sparkles, Phone } from 'lucide-react';
 
 export default function ReviewsPage({ onOpenBooking }) {
   return (
-    <div style={{ paddingTop: '7rem', backgroundColor: '#ffffff' }}>
+    <div style={{ paddingTop: '4.5rem', backgroundColor: '#ffffff' }}>
       
       {/* Reviews Banner */}
       <section style={{

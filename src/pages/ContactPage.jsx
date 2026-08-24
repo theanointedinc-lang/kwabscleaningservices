@@ -5,7 +5,7 @@ import GoogleServiceMap from '../components/GoogleServiceMap';
 
 export default function ContactPage({ onOpenBooking }) {
   return (
-    <div style={{ paddingTop: '7rem', backgroundColor: '#ffffff' }}>
+    <div style={{ paddingTop: '4.5rem', backgroundColor: '#ffffff' }}>
       <section style={{
         background: 'linear-gradient(135deg, rgba(15, 23, 42, 0.55) 0%, rgba(30, 9, 56, 0.45) 50%, rgba(15, 23, 42, 0.7) 100%), url("/hero-bg-home.jpg") center/cover no-repeat',
         color: '#ffffff',

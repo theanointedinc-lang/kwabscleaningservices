@@ -5,7 +5,7 @@ import { HelpCircle, Sparkles, Phone } from 'lucide-react';
 
 export default function FaqPage({ onOpenBooking }) {
   return (
-    <div style={{ paddingTop: '7rem', backgroundColor: '#ffffff' }}>
+    <div style={{ paddingTop: '4.5rem', backgroundColor: '#ffffff' }}>
       
       {/* FAQ Banner */}
       <section style={{

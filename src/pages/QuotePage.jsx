@@ -5,7 +5,7 @@ import { Calculator, Sparkles, Phone } from 'lucide-react';
 
 export default function QuotePage({ onOpenBooking }) {
   return (
-    <div style={{ paddingTop: '7rem', backgroundColor: '#ffffff' }}>
+    <div style={{ paddingTop: '4.5rem', backgroundColor: '#ffffff' }}>
       
       {/* Quote Banner */}
       <section style={{

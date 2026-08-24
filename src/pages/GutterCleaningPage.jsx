@@ -5,7 +5,7 @@ import GoogleServiceMap from '../components/GoogleServiceMap';
 
 export default function GutterCleaningPage({ onOpenBooking }) {
   return (
-    <div style={{ paddingTop: '7rem', backgroundColor: '#ffffff' }}>
+    <div style={{ paddingTop: '4.5rem', backgroundColor: '#ffffff' }}>
       
       {/* Hero Banner */}
       <section style={{

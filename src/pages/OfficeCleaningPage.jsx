@@ -5,7 +5,7 @@ import GoogleServiceMap from '../components/GoogleServiceMap';
 
 export default function OfficeCleaningPage({ onOpenBooking }) {
   return (
-    <div style={{ paddingTop: '7rem', backgroundColor: '#ffffff' }}>
+    <div style={{ paddingTop: '4.5rem', backgroundColor: '#ffffff' }}>
       <section style={{
         background: 'linear-gradient(135deg, #1e0938 0%, #3b0764 50%, #581c87 100%)',
         color: '#ffffff',

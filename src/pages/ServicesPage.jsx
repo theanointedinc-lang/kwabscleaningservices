@@ -5,7 +5,7 @@ import { Sparkles, Phone, Shield, ArrowRight, CheckCircle2 } from 'lucide-react'
 
 export default function ServicesPage({ onOpenBooking }) {
   return (
-    <div style={{ paddingTop: '7rem', backgroundColor: '#ffffff' }}>
+    <div style={{ paddingTop: '4.5rem', backgroundColor: '#ffffff' }}>
       
       {/* Services Page Dedicated Banner */}
       <section style={{
